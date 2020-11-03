@@ -1,0 +1,16 @@
+{
+  "name": "ejsc",
+  "version": "1.0.0",
+  "description": "EJS Copiler",
+  "main": "ejs-compile.js",
+  "author": "Cesare Pautasso",
+  "license": "MIT",
+  "scripts": {
+    "ejsc": "node ejs-compile.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "fs-extra": "^9.0.1",
+    "glob-fs": "^0.1.7"
+  }
+}
